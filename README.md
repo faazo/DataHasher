@@ -28,7 +28,7 @@ Example call
 
 Arguments
 ```
-usage: ./client [-a targetServerIp] [-p targetServerPort] [-n] [--smin=minSize] [--smax=maxSize] [-f]
+usage: ./client [-a targetServerIp] [-p targetServerPort] [-n numHashRequests] [--smin=minSize] [--smax=maxSize] [-f fileName]
 
 required parameters:
   -a                The target server's IP address 
