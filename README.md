@@ -1,8 +1,13 @@
-# TCP Data Hashing
+# Data Hasher
 
 ## Brief
 
-This project consists of a client and server, each to be run separately. In this setup, a client is looking to obtain hashes for some of its file's contents. Each message that the client sends will include details about the data segment that is to be hashed. The server will hash (SHA-256) the segment and respond to the client. When this information is received, the client will print the hexidecimal representation of the hash to console.
+This project consists of a client and server, each to be run separately. In this setup, a client is looking to obtain hashes for some of its file's contents:
+* Each message sent by the client will include details about the data segment to be hashed.
+* The server will hash (SHA-256) the segment and respond to the client.
+* When this information is received, the client will print the hexidecimal representation of the hash to console.
+
+This project leverages the Transmission Control Protocl (TCP), which runs atop of IP.
 
 ## Usage
 
